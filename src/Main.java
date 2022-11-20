@@ -67,12 +67,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Lecturer l1 = new Lecturer("Petr", "Ivanov", 33, "IS", 8000);
-        Lecturer l2 = new Lecturer("Grigory", "Veslov", 60, "IM", 10000);
-        Student s1 = new Student("Vasya", "Pupkin", 20, 33, 43535);
-        Student s2 = new Student("Lesha", "Bobuh", 29, 55, 23985);
-
-
+        Lecturer l1 = new Lecturer("Henry", "Headthink", 33, "IS", 9700);
+        Lecturer l2 = new Lecturer("Grigory", "Kadahera", 60, "IM", 8900);
+        Student s1 = new Student("Vika", "Igorevna", 12, 222, 42671);
+        Student s2 = new Student("Alexandr", "Alexanrovich", 17, 123, 23985);
         Person[] pArray = new Person[]{l1,s1,l2,s2};
 
         for (Person p : pArray) {
